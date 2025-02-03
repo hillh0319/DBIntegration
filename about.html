@@ -1,0 +1,141 @@
+<!-- 
+Sp25 CPTR 2238-01 Database Integration
+Lab 03 | File: about.html
+Hannah Hill
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amortization Calculations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+	<nav>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+	<div class="namecard">
+		Sp25 CPTR 2238-01 Database Integration<br />
+		Lab 03<br />
+		Hannah Hill
+	</div>
+	<h1 style="color: #cae1d9; margin-top: .5em; margin-bottom: 0px;">Amortization Calculations</h1>
+	<p style="margin-top: 0px"><em>Understand how to calculate the annual cost of your project funded by a loan.</em></p>
+</header>
+
+<main>
+	<section>
+		<h2>Definition of Amortization</h2>
+		<p class="limit-width">Amortization is the gradual repayment of a loan through scheduled payments or the spreading of a long-term asset's cost over time in accounting. Loan payments combine interest and principal, while businesses amortize expenses like patents or machinery over their useful lives.</p>
+	</section>
+
+    <section>
+        <h2>Formula</h2>
+        <div class="flex-container">
+            <!-- Left Side -->
+            <div class="flex-item left limit-flex-width">
+                <p>To calculate the annual payment for a loan:</p>
+                <ul>
+                    <li><strong>P:</strong> Principal amount (total project cost)</li>
+                    <li><strong>i:</strong> Monthly interest rate (annual rate ÷ 12)</li>
+                    <li><strong>y:</strong> Total number of payments (loan term in years × 12)</li>
+                </ul>
+            </div>
+            <!-- Right Side -->
+            <div class="flex-item right">
+                <mark style="margin-top: -50px;">
+                    <div class="mark-top">Annual Payment Formula:</div> 
+					<br>
+					<span><div style="background-image: url(https://www.gstatic.com/education/formulas2/553212783/en/amortization_calculator.svg); width: 278px; height: 85px;"></div></span>
+					<div class="source">Image courtesy of <a href="https://www.gstatic.com/education/formulas2/553212783/en/amortization_calculator.svg" target="_blank">Google</a></div>
+					<hr>
+					A = P × [i(1 + i)<sup>y</sup>] / [(1 + i)<sup>y</sup> − 1]
+                </mark>
+				
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Steps to Calculate</h2>
+        <ol>
+            <li>Determine the <strong>loan principal (P)</strong>.</li>
+            <li>Calculate the <strong>monthly interest rate (i)</strong>.</li>
+            <li>Find the <strong>total number of payments (y)</strong>.</li>
+            <li>Plug the values into the formula above.</li>
+            <li>Compute the result to determine your annual cost.</li>
+        </ol>
+		<br>
+		<hr style="background-color: #dddddd;">
+    </section>
+
+    <section>
+    
+		<h2>Example</h2>
+		<div class="flex-container">
+			<!-- Left Side -->
+			<div class="flex-item left limit-flex-width">
+				<p>We will now calculate the monthly payment for a project cost of $50,000, with a 5% annual interest rate over a 10-year loan period:</p>
+			</div>
+			<!-- Right Side -->
+			<div class="flex-item right">
+				<table>
+					<thead>
+						<tr>
+							<th>Variable</th>
+							<th>Value</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Principal (P)</td>
+							<td>$50,000</td>
+						</tr>
+						<tr>
+							<td>Annual Interest Rate</td>
+							<td>5% (0.05)</td>
+						</tr>
+						<tr>
+							<td>Monthly Interest Rate (i)</td>
+							<td>0.004167</td>
+						</tr>
+						<tr>
+							<td>Loan Term (y)</td>
+							<td>10 years (120 months)</td>
+						</tr>
+						<tr style="background-color: #91beae">
+							<td>Monthly Payment (A)</td>
+							<td>$530.50</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<p><strong>Amortization Formula:</strong> A = P × [i(1 + i)<sup>y</sup>] / [(1 + i)<sup>y</sup> − 1]</p>
+		<h3>Steps</h3>
+		<ol>
+			<li><strong>Monthly Interest Rate (i)</strong>: 0.05 / 12 = 0.004167</li>
+			<li><strong>Apply the Formula:</strong> A = 50,000 × [0.004167 × (1.004167)<sup>120</sup>] / [(1.004167)<sup>120</sup> − 1]</li>
+			<li><strong>Calculate:</strong> A ≈ $530.50</li>
+		</ol>
+	</section>
+
+</main>
+
+<footer>
+	<p>
+		Sp25 CPTR 2238-01 Database Integration | Lab 03 <br>
+		Hannah Hill - Spring 2025
+	</p>
+</footer>
+
+</body>
+</html>

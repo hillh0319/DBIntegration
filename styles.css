@@ -1,0 +1,175 @@
+/*
+Sp25 CPTR 2238-01 Database Integration
+Lab 02 | File: styles.css
+Hannah Hill
+*/
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #066f4a;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    padding: 2rem;
+	margin-bottom: 75px;
+	min-height: 525px;
+}
+
+h1, h2 {
+    color: #333;
+	margin-bottom: 5px;
+}
+h3 { 
+	margin-top: 0px;
+	margin-bottom: 2px;
+}
+hr {
+	height: 2px;
+	background-color: black;
+	border: none;
+	margin-top: 3px;
+}
+
+mark {
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 25px;
+    padding: 10px;
+    display: inline-block;
+    background-color: #fffa9c;
+    border-radius: 15px;
+	box-shadow: 8px 8px #ededed;
+}
+.mark-top {
+	background-color: #ffffff78;
+	margin: -9px;
+	padding: 10px;
+	text-align:  center;
+}
+ul, ol {
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+
+
+.limit-width {
+	max-width: 950px;
+	
+}
+.limit-flex-width {
+	max-width: 600px;
+	min-width: 325px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.flex-item {
+    flex: 1;
+}
+
+.flex-item.left {
+    text-align: left;
+}
+
+.flex-item.right {
+    /*text-align: left;*/
+}
+
+.text-right {
+	text-align: right;
+}
+.namecard {
+	position:absolute; 
+	top: 5px; 
+	left: 5px; 
+	text-align: left; 
+	font-family: monospace; 
+	color: #cae1d9;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+	min-width: 300px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+table th {
+    background-color: #f4f4f4;
+}
+
+footer {
+	font-family: monospace;
+	font-size: 15px;
+    background-color: #066f4a;
+    color: #cae1d9;
+    text-align: center;
+    padding: 3px 0 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+
+sup {
+	font-family: Garamond;
+	font-style: italic;
+	padding-left: 4px;
+}
+.source {
+	font-family: monospace;
+	font-size: 10px;
+	color: #c3c077;
+	text-align:right;
+	width: 100%;
+}
+.source a {
+	color: #c3c077;
+}
+
+nav {
+    background-color: #066f4a;
+    text-align: center;
+}
+
+.navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 1rem;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 0.75rem;
+}
+
+.navbar a:hover {
+    background-color: #0b8f61;
+    border-radius: 5px;
+}
