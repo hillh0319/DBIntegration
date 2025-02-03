@@ -3,6 +3,20 @@ Sp25 CPTR 2238-01 Database Integration
 Lab 02 | File: styles.css
 Hannah Hill
 */
+
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center the items */
+    }
+    .flex-item.right {
+        margin-top: 1rem; /* Add some space between items */
+    }
+	.navbar {
+		margin-top: 50px !important;
+	}
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -129,6 +143,11 @@ footer {
     bottom: 0;
 }
 
+footer p {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
 sup {
 	font-family: Garamond;
 	font-style: italic;
@@ -172,4 +191,19 @@ nav {
 .navbar a:hover {
     background-color: #0b8f61;
     border-radius: 5px;
+}
+
+button {
+	color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 0.75rem;
+	border-radius: 5px;
+	background-color: #066f4a;
+	border-width: 0px;
+	margin-top: 5px;
+}
+
+button:active {
+	background-color: #0b8f61;
 }
